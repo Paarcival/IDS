@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo con Tailwind CSS</title>
+    <!-- Incluyendo Tailwind CSS desde CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <section class="flex flex-col pb-20 bg-white">
+        <header class="flex gap-5 justify-end items-start px-20 pt-4 pb-2.5 w-full bg-pink-600 max-md:flex-wrap max-md:px-5 max-md:max-w-full">
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/77fbcfcbbc6a723f96fbdf497ced4c9b62cd0618d4e91e717f707e8489cdc67e?apiKey=a90bfe6ef268487da2d375e850422136&" alt="Company Logo" class="shrink-0 max-w-full aspect-[2.22] w-[268px]" />
+            <nav class="flex-auto justify-end py-9 max-md:max-w-full">
+                <ul class="flex gap-5 max-md:flex-col max-md:gap-0">
+                    <li class="flex flex-col w-[27%] max-md:ml-0 max-md:w-full">
+                        <div class="text-3xl font-medium leading-10 text-white border border-black border-solid max-md:mt-10">Propiedades</div>
+                    </li>
+                    <li class="flex flex-col ml-5 w-[37%] max-md:ml-0 max-md:w-full">
+                        <div class="text-3xl font-medium leading-10 text-white border border-black border-solid max-md:mt-10">Nosotros</div>
+                    </li>
+                    <li class="flex flex-col ml-5 w-[36%] max-md:ml-0 max-md:w-full">
+                        <div class="text-3xl font-medium leading-10 text-white border border-black border-solid max-md:mt-10">Contacto</div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="flex overflow-hidden relative flex-col justify-center items-center px-16 py-20 w-full font-black text-white leading-[150%] min-h-[802px] max-md:px-5 max-md:max-w-full">
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/a7a1ac1fae642200bb6e1e831866eed2e9670dd20fb89a605593917e0909ff68?apiKey=a90bfe6ef268487da2d375e850422136&" alt="Background Image" class="object-cover absolute inset-0 size-full" />
+            <div class="flex relative justify-center items-center px-16 py-14 mt-1 mb-1.5 w-full bg-white bg-opacity-50 max-w-[1226px] max-md:px-5 max-md:max-w-full">
+                <div class="flex flex-col max-w-full w-[795px]">
+                    <h1 class="self-center text-5xl border border-black border-solid max-md:text-4xl">¡Bienvenido!</h1>
+                    <div class="shrink-0 mx-5 mt-1.5 max-w-full bg-white border-white border-solid border-[3px] h-[5px] w-[757px] max-md:mr-2.5"></div>
+                    <h2 class="mx-11 mt-3 text-4xl border border-black border-solid max-md:mr-2.5 max-md:max-w-full">Somos Inversiones y Desarrollos M&R.</h2>
+                    <p class="mt-16 text-6xl text-center border border-black border-solid leading-[90px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[67px]">Hacemos de tus sueños <br /> inmobiliarios una realidad.</p>
+                    <a href="#" class="justify-center self-center px-16 py-11 mt-10 text-3xl bg-pink-600 border border-black border-solid rounded-[100px] max-md:pr-7 max-md:pl-5 max-md:max-w-full">NUESTRA OFERTA INMOBILIARIA</a>
+                </div>
+            </div>
+        </section>
+        <section class="flex justify-center items-center px-16 py-20 w-full text-center text-black bg-white max-md:px-5 max-md:max-w-full">
+            <div class="flex flex-col mb-36 max-w-full w-[976px] max-md:mb-10">
+                <h2 class="self-center text-6xl font-black leading-[90px] max-md:max-w-full max-md:text-4xl">Acerca de nosotros</h2>
+                <p class="mt-28 text-3xl font-extralight leading-10 max-md:mt-10 max-md:max-w-full">Somos una organización innovadora dedicada a ofrecer servicios inmobiliarios de calidad y asesoramiento a nuestros clientes y empresas afines. Nos enorgullece brindar seguridad, bienestar y calidad de vida a través de un equipo de profesionales altamente calificados en el área. En M&R Inversiones y Desarrollo, nos esforzamos por ser líderes en el sector inmobiliario a nivel regional y expandir nuestros servicios a nivel nacional e internacional. Para lograrlo, utilizamos las tecnologías más avanzadas para ofrecer calidad y exclusividad en todos nuestros servicios. Orientamos nuestros esfuerzos a conocer y satisfacer las necesidades de cada uno de nuestros clientes, priorizando la orientación al cliente en todo momento.</p>
+            </div>
+        </section>
+        <h2 class="self-center mt-20 text-5xl font-black text-white border border-black border-solid leading-[75px] max-md:mt-10 max-md:max-w-full max-md:text-4xl">Nuestros Servicios</h2>
+        <section class="self-center px-5 mt-12 w-full max-w-[1332px] max-md:mt-10 max-md:max-w-full">
+            <ul class="flex gap-5 max-md:flex-col max-md:gap-0">
+                <li class="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
+                    <div class="flex flex-col max-md:mt-10">
+                        <div tabindex="0" role="img" style="cursor: pointer;" class="flex justify-center items-center self-center px-5 w-32 h-32 bg-gray-100 rounded-full border-2 border-pink-600 border-solid stroke-[2px] max-md:px-5">
+                            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/4ad5ba6bf2ed9df08e834651ca55dac9627abbee3caa82ca87ebc8c3917aaad3?apiKey=a90bfe6ef268487da2d375e850422136&" alt="Icon for Asesoría en Ventas y Arrendamiento" class="w-full aspect-[1.2]" />
+                        </div>
+                        <h3 class="mt-3 text-3xl font-black leading-10 text-center text-black">Asesoría en <br /> Ventas y Arrendamiento</h3>
+                        <p class="mt-9 text-3xl font-extralight leading-10 text-center text-black">Tenemos toda la experiencia <br /> para hacer la diferencia <br /> entre el éxito y el fracaso</p>
+                    </div>
+                </li>
+                <li class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
+                    <div class="flex flex-col grow items-center mt-1.5 max-md:mt-10">
+                        <div tabindex="0" role="img" style="cursor: pointer;" class="flex justify-center items-center bg-gray-100 rounded-full border-2 border-pink-600 border-solid h-[129px] stroke-[2px] w-[129px]">
+                            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/56c08d8470dfb185e256e316d569b897e3f9816d2c114f541986af233effda77?apiKey=a90bfe6ef268487da2d375e850422136&" alt="Icon for Estudios de Mercado" class="w-full aspect-[1.89]" />
+                        </div>
+                        <h3 class="mt-7 text-3xl font-black leading-10 text-center text-black">Estudios de Mercado</h3>
+                        <p class="self-stretch mt-10 text-3xl font-extralight leading-10 text-center text-black">Ponemos a tu disposición <br /> la información que <br /> necesitas para tomar <br /> decisiones</p>
+                    </div>
+                </li>
+                <li class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
+                    <div class="flex flex-col grow max-md:mt-10">
+                        <div tabindex="0" role="img" style="cursor: pointer;" class="flex justify-center items-center self-center px-3.5 w-32 h-32 bg-gray-100 rounded-full border-2 border-pink-600 border-solid stroke-[2px]">
+                            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/03e67901dffa27ae5e21e7994e496aa82ad3d498c40d029e3f2de8a8afe02291?apiKey=a90bfe6ef268487da2d375e850422136&" alt="Icon for Valoración de Inmuebles" class="w-full aspect-[0.97]" />
+                        </div>
+                        <h3 class="mt-9 text-3xl font-black leading-10 text-center text-black">Valoración de Inmuebles</h3>
+                        <p class="mt-8 text-3xl font-extralight leading-10 text-center text-black">Nuestro análisis de costo <br /> te genera la tranquilidad <br /> de saber que estás <br /> pagando el precio justo</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="self-center mt-16 w-full max-w-[982px] max-md:mt-10 max-md:max-w-full">
+            <ul class="flex gap-5 max-md:flex-col max-md:gap-0">
+                <li class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+                    <div class="flex flex-col items-center px-5 max-md:mt-10 max-md:max-w-full">
+                        <div tabindex="0" role="img" style="cursor: pointer;" class="flex justify-center items-center px-4 w-32 h-32 bg-gray-100 rounded-full border-2 border-pink-600 border-solid stroke-[2px]">
+                            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/a77f58d601414b73de59e3ca096b221b9447f22734a2a999c574005aea016ab8?apiKey=a90bfe6ef268487da2d375e850422136&" alt="Icon for Amplio Inventario de Inmuebles" class="w-full aspect-[1.06] fill-[url(<path-to-image>)lightgray_50%/_contain_no-repeat]" />
+                        </div>
+                        <h3 class="mt-5 text-3xl font-black leading-10 text-center text-black">Amplio Inventario de <br /> Inmuebles</h3>
+                        <p class="self-stretch mt-5 text-3xl font-extralight leading-10 text-center text-black max-md:max-w-full">Nuestro inventario de inmuebles <br /> te da la confianza de <br /> que encontrarás lo que buscas</p>
+                    </div>
+                </li>
+                <li class="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
+                    <div class="flex flex-col grow items-center px-5 text-3xl text-center text-black max-md:mt-10 max-md:max-w-full">
+                        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/d736016bcaf396611087ec6259e5e0d7136b82268ff84cba050775196414cbba?apiKey=a90bfe6ef268487da2d375e850422136&" alt="Icon for Servicios Adicionales" class="max-w-full bg-gray-100 rounded-full border-2 border-pink-600 border-solid aspect-[1.14] stroke-[2px] w-[142px]" />
+                        <h3 class="mt-8 font-black leading-[150%]">Servicios Adicionales</h3>
+                        <p class="self-stretch mt-11 font-extralight leading-10 max-md:mt-10 max-md:max-w-full">Nuestra asesoría en seguros y <br /> los servicios posventa te dan la tranquilidad de saber que estás <br /> en buenas manos</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </section>
+</body>
+</html>
