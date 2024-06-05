@@ -8,5 +8,5 @@ document.querySelector('#nosotros-scroll').addEventListener('click', even => {
 
 document.querySelector('#contacto-scroll').addEventListener('click', event =>{
     document.querySelector('.contact-form').scrollIntoView({behavior : 'smooth'})
-    document.querySelector('#nombre').focus()
+    document.querySelector('#nombre').focus({preventScroll: true})
 })
