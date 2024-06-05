@@ -18,4 +18,4 @@ if(screen.width<850){
         i.querySelector('p').remove()
     }
     document.querySelector('.servicios').style = 'display : flex;flex-direction:column'
-Z}
+}
